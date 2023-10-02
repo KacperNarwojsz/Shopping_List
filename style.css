@@ -1,3 +1,42 @@
+body {
+  background-color: black;
+  background-image: url("shopping.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.notebook {
+  background-image: url("notebook.png");
+  background-size: cover;
+  width: 40vw;
+  height: 95vh;
+  position: relative;
+  left: 30vw;
+}
+
+.notebook-inside {
+  padding-left: 2vw;
+}
+
+h1 {
+  padding-top: 5vw;
+  display: flex;
+  justify-content: center;
+  font-size: 3vw;
+}
+
+#first {
+  font-size: 1.5vw;
+}
+
+#userinput, #enter {
+  font-size: 1.2vw;
+}
+
+li {
+  font-size: 1.5vw;
+}
+
 .coolTitle {
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
@@ -23,7 +62,9 @@
 }
 
 .btn {
-  margin-right: 5px
+  margin-right: 5px;
+  height: 1.5vw;
+  width: 1.5vw;
 }
 
 /*.liInline {
